@@ -12,9 +12,6 @@ function App(props) {
 
   return (
     <Switch>
-        {/* <Route path="/:videoId">
-          <Video />
-        </Route> */}
         <Route path="/">
           <Home />
         </Route>  

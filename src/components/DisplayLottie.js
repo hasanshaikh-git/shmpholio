@@ -1,6 +1,5 @@
-import React, {Component, Suspense} from "react";
+import React, { Component, Suspense } from "react";
 import Lottie from "react-lottie";
-// import Loading from "../../containers/loading/Loading";
 
 export default class DisplayLottie extends Component {
   render() {
@@ -8,7 +7,7 @@ export default class DisplayLottie extends Component {
     const defaultOptions = {
       loop: true,
       autoplay: true,
-      animationData: animationData
+      animationData: animationData,
     };
 
     return (
