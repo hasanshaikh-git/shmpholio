@@ -101,7 +101,7 @@ export default function SoftwareSkill() {
             return (
               <li
                 key={i}
-                className="software-skill-inline"
+                className="software-skill-inline floating"
                 name={skills.skillName}
               >
                 <img

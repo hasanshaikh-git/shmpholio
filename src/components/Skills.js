@@ -23,6 +23,7 @@ export default function Skills() {
               <img
                 alt="Man Working"
                 src={codingPerson}
+                // className={"floating"}
               ></img>
             {/*)} */}
           </div>
