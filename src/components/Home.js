@@ -7,6 +7,7 @@ import "./Home.css";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Education from "./Education";
+import Certification from "./Certification"
 import { Spin, Layout, Menu } from "antd";
 import {
   MenuUnfoldOutlined,
@@ -24,6 +25,7 @@ import {
   GitlabOutlined,
   LinkOutlined,
   LoadingOutlined,
+  SafetyCertificateOutlined
 } from "@ant-design/icons";
 const { Header, Sider, Footer, Content } = Layout;
 
@@ -93,6 +95,13 @@ class Home extends Component {
                 onClick={this.handleScroll.bind(this, "projects")}
               >
                 Projects
+              </Menu.Item>
+              <Menu.Item
+                key="Certifications"
+                icon={<SafetyCertificateOutlined />}
+                onClick={this.handleScroll.bind(this, "certifications")}
+              >
+                Certifications
               </Menu.Item>
               <Menu.Item
                 key="Work Experience"
@@ -204,6 +213,7 @@ class Home extends Component {
               <Greetings />
               <Skills />
               <Projects />
+              <Certification />
               <Experience />
               <Education />
             </Content>
