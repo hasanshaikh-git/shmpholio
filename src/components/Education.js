@@ -12,7 +12,7 @@ export default function Education() {
       <Fade bottom duration={1000} distance="20px">
         <div className="education-container">
           <div>
-            <h1 className="education-heading">Education</h1>
+            <h1 className="education-heading">Education📚</h1>
             <div className="education-cards-div">
               <Timeline mode={"alternate"}>
                 <Timeline.Item label="2014 - 2018">

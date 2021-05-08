@@ -11,7 +11,7 @@ export default function Experience() {
       <Fade bottom duration={1000} distance="20px">
         <div className="experience-container">
           <div>
-            <h1 className="experience-heading">Experience</h1>
+            <h1 className="experience-heading">Experience🖥️</h1>
             <div className="experience-cards-div">
               <Timeline mode={"alternate"}>
                 <Timeline.Item label="December 2018 – Present">

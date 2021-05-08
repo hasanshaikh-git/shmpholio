@@ -9,7 +9,7 @@ export default function Certification() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="certifications">
         <div>
-          <h1 className="skills-heading"> Certification✨</h1>
+          <h1 className="skills-heading"> Certification🏆</h1>
           <div className="projects-container">
             <Image
               //   width={'auto'}
