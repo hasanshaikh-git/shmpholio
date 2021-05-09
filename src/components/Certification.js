@@ -10,7 +10,7 @@ export default function Certification() {
       <div className="main" id="certifications">
         <div>
           <h1 className="skills-heading"> Certification🏆</h1>
-          <div className="projects-container">
+          <div className="certification-container">
             <Image
               //   width={'auto'}
               //   height={'auto'}

@@ -30,7 +30,7 @@ export default function Experience() {
                     </div>
                   </div>
                 </Timeline.Item>
-                <Timeline.Item label="January 2021 – Present">
+                <Timeline.Item label="January 2021 – May 2021">
                   <div className="container">
                     <div className="content">
                       <img

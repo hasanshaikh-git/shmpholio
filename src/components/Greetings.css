@@ -125,4 +125,31 @@
   background: #EEF8F4;
   border-color: #EEF8F4;
   color: #222;
+  transition: 0.2s ease-in;
+
+}
+
+
+
+
+.icon-button i {
+  color: white;
+    cursor: pointer;
+    margin: 0 5px;
+    text-align: center;
+    height: 32px;
+    padding: 4px 16px;
+    font-size: 14px;
+    border-radius: 32px;
+  transition: 0.2s ease-in;
+  display: flex;
+  align-items: center;
+}
+
+.linkedin i {
+  background-color: #0e76a8;
+}
+.linkedin i:hover{
+  color: #FE3D0C;
+  background-color: #EEF8F4;
 }

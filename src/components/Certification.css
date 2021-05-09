@@ -1,10 +1,10 @@
-.projects-container {
+.certification-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
 @media (max-width: 640px) {
-  .projects-container {
+  .certification-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
     gap: 1rem 1rem;

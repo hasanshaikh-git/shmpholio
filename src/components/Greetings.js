@@ -38,6 +38,14 @@ export default function Greeting() {
                 >
                   See my Resume
                 </Button>
+                <a
+          href={"https://www.linkedin.com/in/hasanshaikh/"}
+          className="icon-button linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
+        </a>
               </div>
             </div>
           </div>

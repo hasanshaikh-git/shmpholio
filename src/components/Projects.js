@@ -1,4 +1,4 @@
-import { Card } from "antd";
+import { Card, Image } from "antd";
 import React from "react";
 import "./Projects.css";
 import { Fade } from "react-reveal";
@@ -121,7 +121,7 @@ export default function Projects() {
                 <Card
                   hoverable
                   style={{ width: "auto" }}
-                  cover={<img src={p.image.default} alt={"project_image"} />}
+                  cover={<Image width={'auto'} src={p.image.default} alt={"project_image"} />}
                   key={key}
                   actions={[
                     <img
