@@ -9,7 +9,7 @@
 }
 
 .trigger:hover {
-  color: #FE3D0C;
+  color: #fe3d0c;
 }
 
 .ant-layout-header {
@@ -56,7 +56,7 @@
   padding: 0 10px;
 }
 #root > section > aside {
-  background-color: #EEF8F4;
+  background-color: #eef8f4;
 }
 /* Media Query */
 @media (max-width: 768px) {
@@ -101,14 +101,19 @@
   font-size: 25px;
 }
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-  background-color: #EEF8F4;
+  background-color: #eef8f4;
 }
 .ant-menu-item-selected {
-  color: #FE3D0C;
+  color: #fe3d0c;
 }
 .ant-menu-inline .ant-menu-item::after {
-  border-right: 3px solid #FE3D0C;
+  border-right: 3px solid #fe3d0c;
 }
-.ant-menu-item:hover, .ant-menu-item-active{
-  color: #FE3D0C;
+.ant-menu-item:hover,
+.ant-menu-item-active {
+  color: #fe3d0c;
+}
+.ant-menu-root.ant-menu-inline {
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 9px 28px 8px rgb(0 0 0 / 5%) !important;
 }

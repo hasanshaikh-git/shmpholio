@@ -55,6 +55,21 @@ const projects = [
     ],
   },
   {
+    image: require("../assets/images/crowfund.png"),
+    projectName: "Crowdfund",
+    projectDesc: "Crowdfunding product page",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://smartyhasan.github.io/crowdfund/",
+      },
+      {
+        name: "View Implementation",
+        url: "https://github.com/smartyhasan/crowdfund",
+      },
+    ],
+  },
+  {
     image: require("../assets/images/Crio-News-Feed.png"),
     projectName: "XBOARD",
     projectDesc: "A Dynamic News Feed Website",
@@ -121,7 +136,13 @@ export default function Projects() {
                 <Card
                   hoverable
                   style={{ width: "auto" }}
-                  cover={<Image width={'auto'} src={p.image.default} alt={"project_image"} />}
+                  cover={
+                    <Image
+                      width={"auto"}
+                      src={p.image.default}
+                      alt={"project_image"}
+                    />
+                  }
                   key={key}
                   actions={[
                     <img

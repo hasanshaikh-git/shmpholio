@@ -3,7 +3,7 @@
 }
 
 .skills-text-div {
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .skills-main-div > * {
@@ -58,20 +58,26 @@
     order: 2;
   }
 
-.skills-image-div > img {
-  max-width: 100%;
-  height: auto;
-}
+  .skills-image-div > img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-.floating {  
+.floating {
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 @keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 15px); }
-  100%   { transform: translate(0, -0px); }    
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }

@@ -71,18 +71,18 @@ export default function SoftwareSkill() {
       skillName: "aws",
       fontAwesomeClassname: require("../assets/images/aws.svg"),
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: require("../assets/images/docker.svg"),
-    },
-    {
-      skillName: "typescript",
-      fontAwesomeClassname: require("../assets/images/typescript.svg"),
-    },
-    {
-      skillName: "angular",
-      fontAwesomeClassname: require("../assets/images/angular-icon.svg"),
-    },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: require("../assets/images/docker.svg"),
+    // },
+    // {
+    //   skillName: "typescript",
+    //   fontAwesomeClassname: require("../assets/images/typescript.svg"),
+    // },
+    // {
+    //   skillName: "angular",
+    //   fontAwesomeClassname: require("../assets/images/angular-icon.svg"),
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: require("../assets/images/python.svg"),
