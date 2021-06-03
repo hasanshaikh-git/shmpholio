@@ -83,14 +83,14 @@ export default function SoftwareSkill() {
     //   skillName: "angular",
     //   fontAwesomeClassname: require("../assets/images/angular-icon.svg"),
     // },
-    {
-      skillName: "python",
-      fontAwesomeClassname: require("../assets/images/python.svg"),
-    },
-    {
-      skillName: "handlebarsjs",
-      fontAwesomeClassname: require("../assets/images/handlebarsjs.svg"),
-    },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: require("../assets/images/python.svg"),
+    // },
+    // {
+    //   skillName: "handlebarsjs",
+    //   fontAwesomeClassname: require("../assets/images/handlebarsjs.svg"),
+    // },
   ];
   return (
     <div>
@@ -101,7 +101,7 @@ export default function SoftwareSkill() {
             return (
               <li
                 key={i}
-                className="software-skill-inline floating"
+                className="software-skill-inline"
                 name={skills.skillName}
               >
                 <img

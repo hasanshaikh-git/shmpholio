@@ -7,22 +7,6 @@ import companyLogo from "../assets/images/crio.svg";
 const { Meta } = Card;
 const projects = [
   {
-    image: require("../assets/images/portfolio.png"),
-    projectName: "Shmfolio",
-    projectDesc: "A react.js developer portfolio",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "http://hasan-shaikh.com/",
-      },
-      {
-        name: "View Code",
-        url: "https://github.com/smartyhasan/shmpholio",
-      },
-      //  you can add extra buttons here.
-    ],
-  },
-  {
     image: require("../assets/images/xflix.png"),
     projectName: "XFlix",
     projectDesc: "A MERN stack video sharing platform",
@@ -55,18 +39,50 @@ const projects = [
     ],
   },
   {
-    image: require("../assets/images/crowfund.png"),
-    projectName: "Crowdfund",
-    projectDesc: "Crowdfunding product page",
+    image: require("../assets/images/countries.png"),
+    projectName: "REST Countries API with color theme switcher",
+    projectDesc: "Frontend Mentor Challenge Solution",
     footerLink: [
       {
         name: "View Project",
-        url: "https://smartyhasan.github.io/crowdfund/",
+        url: "https://countries-p.netlify.app/",
       },
       {
-        name: "View Implementation",
+        name: "View Code",
+        url:
+          "https://github.com/smartyhasan/REST-Countries-API-with-color-theme-switcher",
+      },
+    ],
+  },
+  {
+    image: require("../assets/images/crowfund.png"),
+    projectName: "Crowdfunding product page",
+    projectDesc: "Frontend Mentor Challenge Solution",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://crowdfund-challenge.netlify.app/",
+      },
+      {
+        name: "View Code",
         url: "https://github.com/smartyhasan/crowdfund",
       },
+    ],
+  },
+  {
+    image: require("../assets/images/portfolio.png"),
+    projectName: "Shmfolio",
+    projectDesc: "A react.js developer portfolio",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "http://hasan-shaikh.com/",
+      },
+      {
+        name: "View Code",
+        url: "https://github.com/smartyhasan/shmpholio",
+      },
+      //  you can add extra buttons here.
     ],
   },
   {
@@ -123,16 +139,16 @@ export default function Projects() {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
-        <div>
-          <h1 className="skills-heading">{"Key Projects🚀"}</h1>
-          <p className={"subTitle project-subtitle"}>
-            {"Some of the projects, I worked on"}
-          </p>
-          <div className="projects-container">
-            {projects.map((p, key) => {
-              return (
+    <div className="main" id="projects">
+      <div>
+        <h1 className="skills-heading">{"Personal Projects🚀"}</h1>
+        <p className={"subTitle project-subtitle"}>
+          {"Some of the projects, I worked on"}
+        </p>
+        <div className="projects-container">
+          {projects.map((p, key) => {
+            return (
+              <Fade bottom duration={1000} distance="20px">
                 <Card
                   hoverable
                   style={{ width: "auto" }}
@@ -165,11 +181,11 @@ export default function Projects() {
                 >
                   <Meta title={p.projectName} description={p.projectDesc} />
                 </Card>
-              );
-            })}
-          </div>
+              </Fade>
+            );
+          })}
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
