@@ -31,10 +31,10 @@ export default function SoftwareSkill() {
       skillName: "expressjs",
       fontAwesomeClassname: require("../assets/images/expressjs.svg"),
     },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: require("../assets/images/react.svg"),
-    },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: require("../assets/images/react.svg"),
+    // },
     {
       skillName: "nodejs",
       fontAwesomeClassname: require("../assets/images/nodejs.svg"),
