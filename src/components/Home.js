@@ -154,7 +154,7 @@ class Home extends Component {
                 key="Github"
                 icon={<GithubOutlined />}
                 onClick={() =>
-                  this.openProjectInNewWindow("https://github.com/hasanshaikh-git")
+                  this.openProjectInNewWindow("https://github.com/shasan419")
                 }
               >
                 Github
