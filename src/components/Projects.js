@@ -17,7 +17,7 @@ const projects = [
       },
       {
         name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/",
+        url: "https://www.crio.do/portfolio/shasan419/ME_BUILDOUT_XFLIX_REACT/",
       },
       //  you can add extra buttons here.
     ],
@@ -33,7 +33,7 @@ const projects = [
       },
       {
         name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/",
+        url: "https://www.crio.do/portfolio/shasan419/ME_QKART_FRONTEND/",
       },
       //  you can add extra buttons here.
     ],
@@ -50,7 +50,7 @@ const projects = [
       {
         name: "View Code",
         url:
-          "https://github.com/smartyhasan/REST-Countries-API-with-color-theme-switcher",
+          "https://github.com/shasan419/REST-Countries-API-with-color-theme-switcher",
       },
     ],
   },
@@ -65,7 +65,7 @@ const projects = [
       },
       {
         name: "View Code",
-        url: "https://github.com/smartyhasan/crowdfund",
+        url: "https://github.com/shasan419/crowdfund",
       },
     ],
   },
@@ -76,11 +76,11 @@ const projects = [
     footerLink: [
       {
         name: "View Project",
-        url: "http://hasan-shaikh.com/",
+        url: "https://hasan-shaikh.netlify.app/",
       },
       {
         name: "View Code",
-        url: "https://github.com/smartyhasan/shmpholio",
+        url: "https://github.com/shasan419/shmpholio",
       },
       //  you can add extra buttons here.
     ],
@@ -96,7 +96,7 @@ const projects = [
       },
       {
         name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/",
+        url: "https://www.crio.do/portfolio/shasan419/ME_BUILDOUT_XBOARD/",
       },
     ],
   },
@@ -111,7 +111,7 @@ const projects = [
       },
       {
         name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/",
+        url: "https://www.crio.do/portfolio/shasan419/ME_QTRIPDYNAMIC/",
       },
     ],
   },
@@ -126,7 +126,7 @@ const projects = [
       },
       {
         name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/",
+        url: "https://www.crio.do/portfolio/shasan419/ME_QTRIPSTATIC/",
       },
     ],
   },
