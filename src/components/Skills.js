@@ -3,7 +3,7 @@ import "./Skills.css";
 import SoftwareSkills from "./SoftwareSkills";
 import { Fade } from "react-reveal";
 import DisplayLottie from "./DisplayLottie";
-import Reactjs from "../assets/lottie/react.json";
+import vueJS from "../assets/lottie/vueJS.json";
 
 export default function Skills() {
   const skills = [
@@ -15,7 +15,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade bottom duration={1000}>
           <div className="skills-image-div">
-            <DisplayLottie animationData={Reactjs} />
+          <DisplayLottie animationData={vueJS} />
             {/* <img alt="work I do" src={what}></img> */}
           </div>
         </Fade>

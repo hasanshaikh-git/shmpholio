@@ -3,6 +3,7 @@ import { Fade } from "react-reveal";
 import "./Greetings.css";
 import landingPerson from "../assets/lottie/landingPerson.json";
 import DisplayLottie from "./DisplayLottie";
+import jSLogo from "../assets/images/javascript.svg";
 import { Button } from "antd";
 
 export default function Greeting() {
@@ -21,9 +22,16 @@ export default function Greeting() {
                 {"Hi! I'm Hasan "} <span className="wave-emoji">{"👋"}</span>
               </h1>
               <p className={"greeting-text-p subTitle"}>
-                {
-                  "A passionate Full Stack Web Developer 🚀 having experience of building Web applications with JavaScript / Reactjs / Nodejs / MongoDB and some other cool libraries and frameworks."
-                }
+                A passionate Web Developer 🚀 having experience of building Web
+                Applications with
+                {" "}<img
+                  style={{"width": "40px",
+                    "height": "40px"}}
+                  title="Javascript"
+                  alt="Javascript"
+                  src={jSLogo}
+                />{" "}
+                and some other cool libraries and frameworks.
               </p>
               <div className="button-greeting-div">
                 <Button
@@ -39,13 +47,13 @@ export default function Greeting() {
                   See my Resume
                 </Button>
                 <a
-          href={"https://www.linkedin.com/in/hasanshaikh/"}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-        </a>
+                  href={"https://www.linkedin.com/in/hasanshaikh/"}
+                  className="icon-button linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
               </div>
             </div>
           </div>

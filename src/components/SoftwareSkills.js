@@ -4,6 +4,38 @@ import "./SoftwareSkills.css";
 export default function SoftwareSkill() {
   const softwareSkills = [
     {
+      skillName: "JavaScript",
+      fontAwesomeClassname: require("../assets/images/javascript.svg"),
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: require("../assets/images/react.svg"),
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: require("../assets/images/nodejs.svg"),
+    },
+    {
+      skillName: "mongoDB",
+      fontAwesomeClassname: require("../assets/images/mongodb.svg"),
+    },
+    {
+      skillName: "expressjs",
+      fontAwesomeClassname: require("../assets/images/expressjs.svg"),
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: require("../assets/images/python.svg"),
+    },
+    {
+      skillName: "typescript",
+      fontAwesomeClassname: require("../assets/images/typescript.svg"),
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: require("../assets/images/angular-icon.svg"),
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: require("../assets/images/html-5.svg"),
     },
@@ -18,26 +50,6 @@ export default function SoftwareSkill() {
     {
       skillName: "jQuery",
       fontAwesomeClassname: require("../assets/images/jquery.svg"),
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: require("../assets/images/javascript.svg"),
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: require("../assets/images/mongodb.svg"),
-    },
-    {
-      skillName: "expressjs",
-      fontAwesomeClassname: require("../assets/images/expressjs.svg"),
-    },
-    // {
-    //   skillName: "reactjs",
-    //   fontAwesomeClassname: require("../assets/images/react.svg"),
-    // },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: require("../assets/images/nodejs.svg"),
     },
     {
       skillName: "json",
@@ -74,18 +86,6 @@ export default function SoftwareSkill() {
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: require("../assets/images/docker.svg"),
-    // },
-    // {
-    //   skillName: "typescript",
-    //   fontAwesomeClassname: require("../assets/images/typescript.svg"),
-    // },
-    // {
-    //   skillName: "angular",
-    //   fontAwesomeClassname: require("../assets/images/angular-icon.svg"),
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: require("../assets/images/python.svg"),
     // },
     // {
     //   skillName: "handlebarsjs",

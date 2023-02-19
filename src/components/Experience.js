@@ -2,7 +2,7 @@ import React from "react";
 import "./Experience.css";
 import { Fade } from "react-reveal";
 import { Timeline } from "antd";
-import crioLogo from "../assets/images/crio.png";
+import briq from "../assets/images/briq.jpeg";
 import tcsLogo from "../assets/images/tcs.jpg";
 
 export default function Experience() {
@@ -14,7 +14,23 @@ export default function Experience() {
             <h1 className="experience-heading">Experience🖥️</h1>
             <div className="experience-cards-div">
               <Timeline mode={"alternate"}>
-                <Timeline.Item label="December 2018 – Present">
+                <Timeline.Item label="September 2021 – Present">
+                  <div className="container">
+                    <div className="content">
+                      <img
+                        src={briq}
+                        alt={"company_logo"}
+                        className={"experience-roundedimg"}
+                      />
+                      <h2>Briq Data Analytics India</h2>
+                      <h3>Software Engineer</h3>
+                      <p>
+                      1+ years of experience working in frontend technologies
+                      </p>
+                    </div>
+                  </div>
+                </Timeline.Item>
+                <Timeline.Item label="December 2018 – September 2021">
                   <div className="container">
                     <div className="content">
                       <img
@@ -23,26 +39,9 @@ export default function Experience() {
                         className={"experience-roundedimg"}
                       />
                       <h2>Tata Consultancy Services</h2>
-                      <h3>System Engineer(Full-time)</h3>
+                      <h3>System Engineer</h3>
                       <p>
                         2+ years of experience working in frontend technologies
-                      </p>
-                    </div>
-                  </div>
-                </Timeline.Item>
-                <Timeline.Item label="January 2021 – May 2021">
-                  <div className="container">
-                    <div className="content">
-                      <img
-                        src={crioLogo}
-                        alt={"company_logo"}
-                        className={"experience-roundedimg"}
-                      />
-                      <h2>CRIO.Do</h2>
-                      <h3>Full Stack Web Developer(Part-time)</h3>
-                      <p>
-                        Ramped up as a Full-Stack Web Developer by building real
-                        world products.
                       </p>
                     </div>
                   </div>

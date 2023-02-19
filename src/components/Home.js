@@ -22,7 +22,7 @@ import {
   GoogleOutlined,
   GithubOutlined,
   LinkedinOutlined,
-  GitlabOutlined,
+  // GitlabOutlined,
   LinkOutlined,
   LoadingOutlined,
   SafetyCertificateOutlined
@@ -151,24 +151,15 @@ class Home extends Component {
                 Linkedin
               </Menu.Item>
               <Menu.Item
-                key="shasan419@gmail.com"
-                icon={<GoogleOutlined />}
-                onClick={() =>
-                  this.openProjectInNewWindow("mailto:shasan419@gmail.com")
-                }
-              >
-                shasan419@gmail.com
-              </Menu.Item>
-              <Menu.Item
                 key="Github"
                 icon={<GithubOutlined />}
                 onClick={() =>
-                  this.openProjectInNewWindow("https://github.com/smartyhasan")
+                  this.openProjectInNewWindow("https://github.com/hasanshaikh-git")
                 }
               >
                 Github
               </Menu.Item>
-              <Menu.Item
+              {/* <Menu.Item
                 key="GitLab"
                 icon={<GitlabOutlined />}
                 onClick={() =>
@@ -178,6 +169,15 @@ class Home extends Component {
                 }
               >
                 GitLab
+              </Menu.Item> */}
+              <Menu.Item
+                key="shasan419@gmail.com"
+                icon={<GoogleOutlined />}
+                onClick={() =>
+                  this.openProjectInNewWindow("mailto:shasan419@gmail.com")
+                }
+              >
+                Send Mail
               </Menu.Item>
             </Menu>
           </Sider>
