@@ -7,13 +7,39 @@ import companyLogo from "../assets/images/crio.svg";
 const { Meta } = Card;
 const projects = [
   {
+    image: require("../assets/images/QKart.png"),
+    projectName: "QKart",
+    projectDesc: "A MERN stack E-commerce Application",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://qkart-mern.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/shasan419/qkart-frontend",
+      },
+      {
+        name: "View Implementation",
+        url: "https://www.crio.do/portfolio/shasan419/ME_QKART_FRONTEND/",
+      },
+      //  you can add extra buttons here.
+    ],
+  },
+  {
     image: require("../assets/images/xflix.png"),
     projectName: "XFlix",
     projectDesc: "A MERN stack video sharing platform",
     footerLink: [
       {
         name: "View Project",
-        url: "https://xflix.netlify.app/",
+        url: "https://xflix-mern.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/shasan419/xflix-frontend",
       },
       {
         name: "View Implementation",
@@ -23,19 +49,22 @@ const projects = [
     ],
   },
   {
-    image: require("../assets/images/QKart.png"),
-    projectName: "QKart",
-    projectDesc: "A MERN stack E-commerce Application",
+    image: require("../assets/images/QTrip-static.png"),
+    projectName: "QTrip Dynamic",
+    projectDesc: "An activity-planning website for travellers",
     footerLink: [
       {
         name: "View Project",
-        url: "https://qkart-project.netlify.app/",
+        url: "https://q-trip-dynamic.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url: "https://github.com/shasan419/qtrip-dynamic",
       },
       {
         name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/ME_QKART_FRONTEND/",
+        url: "https://www.crio.do/portfolio/shasan419/ME_QTRIPDYNAMIC/",
       },
-      //  you can add extra buttons here.
     ],
   },
   {
@@ -97,21 +126,6 @@ const projects = [
       {
         name: "View Implementation",
         url: "https://www.crio.do/portfolio/shasan419/ME_BUILDOUT_XBOARD/",
-      },
-    ],
-  },
-  {
-    image: require("../assets/images/QTrip-static.png"),
-    projectName: "QTrip Dynamic",
-    projectDesc: "An activity-planning website for travellers",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://qtrip-dynamic.netlify.app/",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/ME_QTRIPDYNAMIC/",
       },
     ],
   },
