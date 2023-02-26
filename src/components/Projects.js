@@ -2,7 +2,9 @@ import { Card, Image } from "antd";
 import React from "react";
 import "./Projects.css";
 import { Fade } from "react-reveal";
-import companyLogo from "../assets/images/crio.svg";
+import crio from "../assets/images/crio.svg";
+import git from "../assets/images/github.svg";
+import link from "../assets/images/link.svg";
 
 const { Meta } = Card;
 const projects = [
@@ -17,8 +19,7 @@ const projects = [
       },
       {
         name: "View Code",
-        url:
-          "https://github.com/shasan419/qkart-frontend",
+        url: "https://github.com/shasan419/qkart-frontend",
       },
       {
         name: "View Implementation",
@@ -38,8 +39,7 @@ const projects = [
       },
       {
         name: "View Code",
-        url:
-          "https://github.com/shasan419/xflix-frontend",
+        url: "https://github.com/shasan419/xflix-frontend",
       },
       {
         name: "View Implementation",
@@ -151,6 +151,26 @@ export default function Projects() {
     var win = window.open(url, "_blank");
     win.focus();
   }
+  function getLogoFromType(name){
+    if(name === "View Project") return link
+    else if(name === "View Code") return git
+    else return crio
+  }
+  function getActions(p){
+    let arrayToReturn = [];
+    p.footerLink.forEach(x=>{
+        arrayToReturn.push(<img
+          src={getLogoFromType(x.name)}
+          className={"image-link"}
+          alt={x.name}
+          title={x.name}
+          onClick={() =>
+            openProjectInNewWindow(x.url)
+          }
+          />)
+    });
+    return arrayToReturn
+  }
 
   return (
     <div className="main" id="projects">
@@ -174,24 +194,7 @@ export default function Projects() {
                     />
                   }
                   key={key}
-                  actions={[
-                    <img
-                      src={companyLogo}
-                      className={"image-link"}
-                      alt={p.footerLink[1].name}
-                      title={p.footerLink[1].name}
-                      onClick={() =>
-                        openProjectInNewWindow(p.footerLink[1].url)
-                      }
-                    />,
-                    <i
-                      className={"fas fa-share-square fas-link"}
-                      title={p.footerLink[0].name}
-                      onClick={() =>
-                        openProjectInNewWindow(p.footerLink[0].url)
-                      }
-                    ></i>,
-                  ]}
+                  actions={getActions(p)}
                 >
                   <Meta title={p.projectName} description={p.projectDesc} />
                 </Card>
