@@ -22,16 +22,15 @@ export default function Greeting() {
                 {"Hi! I'm Hasan "} <span className="wave-emoji">{"👋"}</span>
               </h1>
               <p className={"greeting-text-p subTitle"}>
-                A passionate Web Developer 🚀 having experience of building Web
-                Applications with
+              An experienced Software Developer 🚀 with a strong background in building scalable and efficient Web Applications using
                 {" "}<img
                   style={{"width": "40px",
                     "height": "40px"}}
                   title="Javascript"
                   alt="Javascript"
                   src={jSLogo}
-                />{" "}
-                and some other cool libraries and frameworks.
+                />{", "}
+                along with a variety of advanced libraries and frameworks such as VueJS, ReactJS, NodeJS, etc. Proficient in both front-end and back-end development, I have a proven track record of delivering high-quality software solutions that enhance user experience and drive business success. Adept at collaborating with cross-functional teams, I excel in agile environments and am committed to continuous learning and adopting best practices in software development.
               </p>
               <div className="button-greeting-div">
                 <Button

@@ -114,36 +114,36 @@ const projects = [
       //  you can add extra buttons here.
     ],
   },
-  {
-    image: require("../assets/images/Crio-News-Feed.png"),
-    projectName: "XBOARD",
-    projectDesc: "A Dynamic News Feed Website",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://crio-news-feed.netlify.app/",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/ME_BUILDOUT_XBOARD/",
-      },
-    ],
-  },
-  {
-    image: require("../assets/images/QTrip-static.png"),
-    projectName: "QTrip Static",
-    projectDesc: "A static travel website",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://q-trip.netlify.app/",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/shasan419/ME_QTRIPSTATIC/",
-      },
-    ],
-  },
+  // {
+  //   image: require("../assets/images/Crio-News-Feed.png"),
+  //   projectName: "XBOARD",
+  //   projectDesc: "A Dynamic News Feed Website",
+  //   footerLink: [
+  //     {
+  //       name: "View Project",
+  //       url: "https://crio-news-feed.netlify.app/",
+  //     },
+  //     {
+  //       name: "View Implementation",
+  //       url: "https://www.crio.do/portfolio/shasan419/ME_BUILDOUT_XBOARD/",
+  //     },
+  //   ],
+  // },
+  // {
+  //   image: require("../assets/images/QTrip-static.png"),
+  //   projectName: "QTrip Static",
+  //   projectDesc: "A static travel website",
+  //   footerLink: [
+  //     {
+  //       name: "View Project",
+  //       url: "https://q-trip.netlify.app/",
+  //     },
+  //     {
+  //       name: "View Implementation",
+  //       url: "https://www.crio.do/portfolio/shasan419/ME_QTRIPSTATIC/",
+  //     },
+  //   ],
+  // },
 ];
 
 export default function Projects() {
@@ -175,7 +175,7 @@ export default function Projects() {
   return (
     <div className="main" id="projects">
       <div>
-        <h1 className="skills-heading">{"Personal Projects🚀"}</h1>
+        <h1 className="skills-heading">{"Projects🚀"}</h1>
         <p className={"subTitle project-subtitle"}>
           {"Some of the projects, I worked on"}
         </p>

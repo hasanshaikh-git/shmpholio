@@ -6,10 +6,10 @@ import DisplayLottie from "./DisplayLottie";
 import vueJS from "../assets/lottie/vueJS.json";
 
 export default function Skills() {
-  const skills = [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Creating application backend using Node and Express",
-  ];
+  // const skills = [
+  //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+  //   "⚡ Creating application backend using Node and Express",
+  // ];
   return (
     <div className={"main"} id="skills">
       <div className="skills-main-div">
@@ -24,18 +24,14 @@ export default function Skills() {
             <h1 className={"skills-heading"}>{"Technical Skills💻"} </h1>
             <p className={"subTitle skills-text-subtitle"}>
               {
-                "ASPIRING FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK"
+                "FULL STACK DEVELOPER"
               }
             </p>
             <SoftwareSkills />
             <div>
-              {skills.map((skills, i) => {
-                return (
-                  <p key={i} className={"subTitle skills-text"}>
-                    {skills}
-                  </p>
-                );
-              })}
+              {
+              <p className={"subTitle skills-text"}>Having a strong background in creating scalable applications and expertise in both front-end and back-end technologies, I am adept at providing innovative solutions that improve user experience and contribute to business growth.</p>
+              }
             </div>
           </div>
         </Fade>
